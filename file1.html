@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <h1>📋 Заметки</h1>
-    <a href="{{ url_for('add_note') }}" class="btn">➕ Добавить заметку</a>
+    <h1>📋 Note </h1>
+    <a href="{{ url_for('add_note') }}" class="btn">➕ Добавить Note</a>
     <ul>
         {% for note in notes %}
         <li>
